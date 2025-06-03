@@ -79,6 +79,7 @@
   scroll-snap-align: start;
   background: #e5e7eb;
   overflow: hidden;
+  position: relative;
 }
 
 .videoCard video {
@@ -94,6 +95,34 @@
   height: 100%;
   object-fit: cover;
 }
+
+.playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.playButton svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
+.videoCard.playing .playButton {
+  opacity: 0;
+  pointer-events: none;
+}
+
 
 @media (max-width:784px) {
   .followBtn img {
