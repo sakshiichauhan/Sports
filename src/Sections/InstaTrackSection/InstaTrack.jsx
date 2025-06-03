@@ -27,7 +27,10 @@ const InstaFastTrack = () => {
         {videoData.map((video) => (
           <div key={video.id} className={styles.videoCard}>
             <video 
-              controls 
+              controls
+              muted
+              loop
+              playsInline
               src={video.url} 
               className={styles.video} 
               width="180" 
