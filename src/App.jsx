@@ -18,32 +18,6 @@ import WellfareSection from './Sections/WellfareSection/Wellfare.jsx';
 import Footer from './Sections/footer/Footer.jsx';
 
 function App() {
-
-  const [resolution, setResolution] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight,
-  });
-
-  useEffect(() => {
-    const updateResolution = () => {
-      const width = window.innerWidth;
-      const height = window.innerHeight;
-      setResolution({ width, height });
-      document.title = `Resolution: ${width}x${height}`;
-    };
-
-    // Set initial title
-    updateResolution();
-
-    // Listen to resize events
-    window.addEventListener("resize", updateResolution);
-
-    // Cleanup
-    return () => window.removeEventListener("resize", updateResolution);
-  }, []);
-
-
-
   const BosData = BOSdata.map(data => (
     <BOS key={data.id} {...data} />
   ));
@@ -68,15 +42,15 @@ function App() {
             {BosDataE}
         </div>
       </section>
-      <Movement></Movement>
+      <Movement/>
       <SponserSection/>
       <WhySponcerSection/>
-      <PatnerSection></PatnerSection>
+      <PatnerSection/>
       <InstaTrackSection/>
       <CommunityTalksSection/>
       <StayConnectedSection/>
       <WellfareSection/>
-      <Footer></Footer>
+      <Footer/>
     </>
   );
 }
