@@ -1,8 +1,11 @@
+import { Route } from "react-router-dom";
 import Landing from "./page/Landing.jsx";
 
 function App() {
   return (
-    <Landing/>
+    <>
+      <Route path="/" element={<Landing />} />
+    </>
   );
 }
 
