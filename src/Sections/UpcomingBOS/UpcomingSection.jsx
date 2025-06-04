@@ -3,7 +3,6 @@ import { FaMapMarkerAlt } from 'react-icons/fa';
 import calendarIcon from '../../assets/Icon/calenderIcon.png';
 
 const EventCard = ({ image, title, ageGroup, location, date }) => {
-  console.log(image);
   return (
     <div>
     <div className={`${styles.card} cardBackground`}>

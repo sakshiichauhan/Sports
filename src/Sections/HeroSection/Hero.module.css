@@ -485,7 +485,7 @@
 }
 
 .blurContent {
-   filter: blur(6px);
+  filter: blur(6px);
   pointer-events: none;
   user-select: none; /* Ensures blur area isn't clickable */
 }

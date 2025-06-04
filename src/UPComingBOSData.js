@@ -10,7 +10,7 @@ export default [
     date: '25th June 2025 | 8 AM – 5 PM',
   },
   {
-    id: 1,
+    id: 2,
     image: img,
     title: 'Gully Cricket Championship Delhi Edition',
     ageGroup: '14–25',
@@ -18,7 +18,7 @@ export default [
     date: '25th June 2025 | 8 AM – 5 PM',
   },
   {
-    id: 1,
+    id: 3,
     image: img,
     title: 'Gully Cricket Championship Delhi Edition',
     ageGroup: '14–25',
@@ -26,7 +26,7 @@ export default [
     date: '25th June 2025 | 8 AM – 5 PM',
   },
   {
-    id: 1,
+    id: 4,
     image: img,
     title: 'Gully Cricket Championship Delhi Edition',
     ageGroup: '14–25',
@@ -34,7 +34,7 @@ export default [
     date: '25th June 2025 | 8 AM – 5 PM',
   },
   {
-    id: 1,
+    id: 5,
     image:img,
     title: 'Gully Cricket Championship Delhi Edition',
     ageGroup: '14–25',
@@ -42,7 +42,7 @@ export default [
     date: '25th June 2025 | 8 AM – 5 PM',
   },
   {
-    id: 1,
+    id: 6,
     image: img,
     title: 'Gully Cricket Championship Delhi Edition',
     ageGroup: '14–25',
@@ -50,7 +50,7 @@ export default [
     date: '25th June 2025 | 8 AM – 5 PM',
   },
   {
-    id: 1,
+    id: 7,
     image: img,
     title: 'Gully Cricket Championship Delhi Edition',
     ageGroup: '14–25',
